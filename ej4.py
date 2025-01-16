@@ -2,7 +2,7 @@ lista = []
 par = 0
 impar = 0
 for i in range(10):
-    lista.append(int(input()))
+    lista.append(int(input("Introduce un número: ")))
 for i in range(len(lista)):
     if(i%2==0):
         par += lista[i]
