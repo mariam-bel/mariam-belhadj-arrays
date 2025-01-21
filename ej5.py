@@ -11,4 +11,4 @@ for i in range(nalumnos):
         cont1 += 1
     else:
         cont2 += 1
-print(f"{estaturas}\nHay {cont1} alumnos que superan o miden igual a la media y {cont2} que son más bajos.")
+print(f"{estaturas}\nLa media es de {aux/len(estaturas)}cm\nHay {cont1} alumnos que superan o miden igual a la media y {cont2} que son más bajos.")
